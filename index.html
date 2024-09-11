@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello E-commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #555;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 50px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            font-size: 20px;
+        }
+        .product-card p {
+            color: #555;
+        }
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .product-card button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Hello E-commerce</h1>
+        <p>Votre boutique en ligne préférée</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#products">Produits</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <h1>Bienvenue sur Hello E-commerce</h1>
+        <p>Trouvez les meilleurs produits aux meilleurs prix !</p>
+    </section>
+
+    <!-- Products section -->
+    <section id="products" class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>Prix: 29,99 €</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>Prix: 49,99 €</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200" alt="Produit 3">
+            <h3>Produit 3</h3>
+            <p>Prix: 19,99 €</p>
+            <button>Ajouter au panier</button>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Hello E-commerce. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
